@@ -20,6 +20,7 @@ int main() {
 				sum += number;
 			}
 
+
 		}
 		cout << endl;
 	}
