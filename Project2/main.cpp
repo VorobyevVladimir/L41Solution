@@ -1,4 +1,5 @@
 #include<iostream>
+#include"logic.h"
 using namespace std;
 
 #define N 5
@@ -16,16 +17,16 @@ int main() {
 
 			cout << number << "  ";
 
-			if (i == j) {
-				sum += number;
-			}
-
-
 		}
-		cout << endl;
-	}
-	cout  << sum << endl;
 
-	return 0;
+
+
+		cout << endl;
+
+	}
+	cout << sum_element_of_diagonale(matrix[N][N])  << endl;
 }
+
+	
+
 
